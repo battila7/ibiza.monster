@@ -1,0 +1,24 @@
+{
+  "name": "@ibiza/site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server ./docs -c-1",
+    "deploy": "surge ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/computer-graphics-master/site.git"
+  },
+  "author": "Attila Bagossy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/computer-graphics-master/site/issues"
+  },
+  "homepage": "https://github.com/computer-graphics-master/site#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "surge": "^0.20.1"
+  }
+}
