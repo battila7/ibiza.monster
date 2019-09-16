@@ -176,8 +176,10 @@ a:hover {
 }
 
 .gyakorlatvezeto > img {
-    width: 150px;
-    height: 150px;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
     display: block;
     box-shadow: 0px 7px 7px 2.5px rgba(0, 0, 0, 0.5);
 }
@@ -188,7 +190,7 @@ a:hover {
     }
 
     .gyakorlatvezeto > img {
-        flex: 0 1 150px;
+        flex: 0 1 200px;
         float: left;
     }
 
